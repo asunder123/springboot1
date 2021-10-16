@@ -4,7 +4,7 @@ tools {
 maven "maven"
 }
 stages {
-stage("Cleaning stage") {
+stage("Building stage") {
 steps {
 sh "mvn clean install"
 }
