@@ -1,3 +1,4 @@
+properties([parameters([choice(choices: 'master feature', description: 'Select the branch', name: 'Branch')])])
 pipeline {
 agent any
 tools {
