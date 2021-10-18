@@ -2,7 +2,7 @@ properties([parameters([choice(choices: 'master\nfeature', description: 'Select 
 pipeline {
 agent any
 tools {
-maven "maven"
+maven "Maven"
 }
 stages {
 stage("Building stage") {
